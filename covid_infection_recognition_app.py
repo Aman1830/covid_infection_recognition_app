@@ -27,7 +27,7 @@ ResultMap = load_result_map()
 
 # Streamlit UI
 st.title("🫁 COVID Infection Recognition")
-st.write("Upload a CT scan image to predict whether it indicates COVID infection or not.")
+st.write("Upload a CT scan image to predict whether it indicates COVID infection or not ➖ Naveen Gupta")
 
 uploaded_file = st.file_uploader("Choose a CT scan image", type=["png", "jpg", "jpeg"])
 
